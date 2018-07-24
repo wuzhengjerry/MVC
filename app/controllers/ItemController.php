@@ -28,4 +28,10 @@ class ItemController extends Controller
         $this->assign('items', $items);
         $this->render();
     }
+
+    public function uploadfile()
+    {
+        $file = $_FILES;
+        print_r($file);exit;
+    }
 }

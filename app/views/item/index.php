@@ -1,5 +1,5 @@
-<form action="" method="get">
-    <input type="text" value="<?php echo $keyword ?>" name="keyword">
+<form enctype="multipart/form-data" action="/item/uploadfile" method="post">
+    <input type="file" name="myfile">
     <input type="submit" value="搜索">
 </form>
 

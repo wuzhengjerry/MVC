@@ -65,7 +65,7 @@ class Sql
         $sql = sprintf("select * from %s %s", $this->table, $this->filter);
         $sth = Db::pdo()->prepare($sql);
         $sth = $this->formatParam($sth, $this->param);
-        $sth->excute();
+        $sth->execute();
 
         return $sth->fetchAll();
     }
