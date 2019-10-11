@@ -1,0 +1,1 @@
+!dns.qry.name == "www.google.com" and !dns.qry.name == "www.baidu.com" and !dns.qry.name == "webres1.sangfor.ctmail.com" and !dns.qry.name == "webres2.sangfor.ctmail.com" and !dns.qry.name == "webres3.sangfor.ctmail.com" and !dns.qry.name == "webres4.sangfor.ctmail.com" and !dns.qry.name == "webres5.sangfor.ctmail.com"
